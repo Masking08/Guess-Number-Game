@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess-number-game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Tebak Angka</h1>
+        <p>Tebak angka antara 1 sampai 10.000:</p>
+        <input type="number" id="guessInput" min="1" max="10000" placeholder="Enter your guess">
+        <button onclick="checkGuess()">Submit Guess</button>
+        <p id="result"></p>
+        <p id="previousGuesses"></p>
+        <button onclick="restartGame()">Restart Game</button>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>&copy; 2024 Created By Masking.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="js/script.js">
+    </script>
+</body>
+</html>
