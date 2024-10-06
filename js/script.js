@@ -1,4 +1,4 @@
-let randomNumber = Math.floor(Math.random() * 10000) + 1;
+let randomNumber = Math.floor(Math.random() * 9999) + 1;
 let previousGuesses = [];
 
 function checkGuess() {
@@ -34,7 +34,7 @@ function endGame() {
 }
 
 function restartGame() {
-    randomNumber = Math.floor(Math.random() * 10000) + 1;
+    randomNumber = Math.floor(Math.random() * 9999) + 1;
     previousGuesses = [];
     document.getElementById('guessInput').disabled = false;
     document.getElementById('guessInput').value = '';
